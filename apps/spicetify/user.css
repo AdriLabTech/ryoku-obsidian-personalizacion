@@ -1,0 +1,6 @@
+/* Ryoku Obsidian para Spotify: esquinas rectas, sin sombras, tipografía Space Grotesk. */
+:root { --encore-corner-radius-base: 0 !important; }
+* { font-family: "Space Grotesk", sans-serif !important; }
+.main-card-card, .main-coverSlotExpanded-container, .main-image-image, img { border-radius: 0 !important; }
+.main-yourLibraryX-libraryContainer, .main-view-container, .Root__main-view { border-radius: 0 !important; }
+.main-playButton-PlayButton, button[data-testid="control-button-playpause"] { border-radius: 0 !important; }

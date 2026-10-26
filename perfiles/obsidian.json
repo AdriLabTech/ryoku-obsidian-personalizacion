@@ -1,0 +1,116 @@
+{
+  "slug": "obsidian",
+  "nombre": "Obsidian",
+  "tema": "Obsidiana: casi negro, blanco y gris. Disco de semitono con venas de mármol, torii en alzado con cotas, anillos de instrumento. Space Grotesk, bordes de 1 px, sin sombras ni blur. Arte propio.",
+  "wallpaper": "obsidian",
+  "personaje": "busto",
+  "cursor": "Bibata-Modern-Ice",
+  "iconos": "ryoku-obsidian",
+  "lock": "pixel-obsidian",
+  "kitty": {
+    "font": "JetBrainsMono Nerd Font Mono",
+    "bold": "auto",
+    "size": 11.5,
+    "cursor_shape": "block",
+    "cursor_trail": 0,
+    "window_margin_width": 10,
+    "background_opacity": 1.0,
+    "tab_bar_style": "separator"
+  },
+  "rice": {
+    "look.shell.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "look.shell.dock.enabled": true,
+    "look.shell.dock.autohide": true,
+    "look.shell.qsbar.barShellStyle": "notch",
+    "look.visualizer.enabled": false,
+    "look.hypr.plugins.keysounds.enabled": true,
+    "look.hypr.plugins.keysounds.profile": "nk-cream",
+    "look.hypr.plugins.keysounds.volume": 0.45,
+    "look.hypr.appearance.rounding": 2,
+    "look.hypr.appearance.shadowEnabled": false,
+    "look.hypr.appearance.glowEnabled": false,
+    "look.hypr.appearance.animatedBorder": false,
+    "look.hypr.appearance.borderSize": 1,
+    "look.hypr.appearance.gapsIn": 6,
+    "look.hypr.appearance.gapsOut": 12,
+    "look.hypr.appearance.inactiveBorder": "#29292E",
+    "look.widgets.clockColor": "#E6E6E9",
+    "look.widgets.clockGradient": false,
+    "look.shell.dock.style": "islands",
+    "look.shell.theme.attributes.sizing.radius_widget": 2,
+    "look.shell.theme.attributes.sizing.radius_window": 2,
+    "look.shell.theme.attributes.sizing.border_width": 1,
+    "look.shell.frameCorner": 2,
+    "look.shell.frameThickness": 1,
+    "look.shell.osdRadius": 2,
+    "look.shell.frameBars.menus.quick-settings.anchor": "left",
+    "look.shell.frameBars.menus.quick-settings.minWidth": 420,
+    "look.shell.frameBars.menus.quick-settings.modules": [
+      "home",
+      "notifications",
+      "weather",
+      "stage",
+      "capture"
+    ],
+    "look.shell.notifications.notification_position": "Right",
+    "look.widgets.widgetFont": "JetBrainsMono Nerd Font Mono",
+    "look.widgets.clockDesign": "minimal",
+    "look.widgets.dateDesign": "inline",
+    "look.widgets.clockBg": "none",
+    "look.widgets.clockRadius": 0,
+    "look.widgets.calendarStyle": "paper",
+    "look.widgets.clock24h": true,
+    "look.shell.qsbar.workspaceStyle": "numbers",
+    "look.shell.qsbar.barCornerRadius": 0,
+    "look.shell.qsbar.barAnim": 0,
+    "look.hypr.appearance.windowStyle": "slide",
+    "look.hypr.plugins.hyprbars.enabled": false,
+    "look.visualizer.style": "line",
+    "look.visualizer.shape": "flat",
+    "look.visualizer.color": "#E6E6E9",
+    "look.visualizer.color2": "#050505",
+    "look.widgets.clockScale": 2.2,
+    "look.widgets.clockX": 140,
+    "look.widgets.clockY": 607,
+    "look.hypr.appearance.activeBorder": "#E6E6E9",
+    "look.hypr.appearance.borderFollowsPalette": false,
+    "look.hypr.appearance.blurEnabled": false,
+    "look.shell.theme.matugen.scheme_type": "Content",
+    "look.hypr.cursor.size": 24
+  },
+  "starship": {
+    "dir_fg": "#050505",
+    "dir_bg": "#E6E6E9",
+    "git_fg": "#E6E6E9",
+    "git_bg": "#29292E",
+    "time_fg": "#85858D",
+    "time_bg": "#151518",
+    "crimson": "#E5736F"
+  },
+  "ff_acento": [
+    230,
+    230,
+    233
+  ],
+  "ff_lema": "OBSIDIAN · sobriedad",
+  "paleta": {
+    "theme": "obsidian",
+    "archivo": "obsidian"
+  },
+  "reloj": {
+    "x": 140,
+    "y": 500
+  },
+  "fastfetch": "estatico",
+  "plugins": {
+    "claude-code": {
+      "enabled": true,
+      "settings": {
+        "debugOverlay": false
+      }
+    },
+    "mobile-bridge": {
+      "enabled": true
+    }
+  }
+}

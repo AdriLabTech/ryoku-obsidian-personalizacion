@@ -1,0 +1,64 @@
+/* Ryoku Obsidian para Discord: monocromo. Se inyecta por CDP (ver ryoku-discord). Los colores de estado
+   (conectado, error) y los de roles de usuario se dejan como vienen. Variables de Discord (2026-10). */
+:root, html .theme-dark, html .theme-darker, html .theme-midnight, html .theme-light {
+  --background-base-lowest: #050505 !important;
+  --background-base-lower:  #0B0B0D !important;
+  --background-base-low:    #0B0B0D !important;
+  --background-surface-high:    #101013 !important;
+  --background-surface-higher:  #151518 !important;
+  --background-surface-highest: #1C1C20 !important;
+  --bg-surface-raised: #101013 !important;
+  --channeltextarea-background: #101013 !important;
+  --background-mod-subtle: #E6E6E90F !important;
+  --background-mod-muted:  #E6E6E914 !important;
+  --background-mod-normal: #E6E6E91F !important;
+  --background-mod-strong: #E6E6E92E !important;
+  --interactive-background-default: #E6E6E90F !important;
+  --interactive-background-hover:   #E6E6E91A !important;
+  --interactive-background-active:  #E6E6E924 !important;
+  --interactive-background-selected:#E6E6E92E !important;
+  --border-subtle: #29292E !important;
+  --text-strong:  #FFFFFF !important;
+  --text-default: #E6E6E9 !important;
+  --text-muted:   #85858D !important;
+  --chat-text-muted: #85858D !important;
+  --input-text-default: #E6E6E9 !important;
+  --input-placeholder-text-default: #5A5A62 !important;
+  --input-background-default: #101013 !important;
+  --interactive-text-default: #85858D !important;
+  --interactive-text-hover: #FFFFFF !important;
+  --interactive-text-active: #FFFFFF !important;
+  --interactive-icon-default: #85858D !important;
+  --interactive-icon-hover: #FFFFFF !important;
+  --interactive-icon-active: #FFFFFF !important;
+  --interactive-muted: #3A3A40 !important;
+  --interactive-accent-background-default: #E6E6E9 !important;
+  --interactive-accent-background-hover: #FFFFFF !important;
+  --interactive-accent-background-active: #C4C4CA !important;
+  --interactive-accent-background-selected: #FFFFFF !important;
+  --control-primary-background-default: #E6E6E9 !important;
+  --control-primary-background-hover: #FFFFFF !important;
+  --control-primary-background-active: #C4C4CA !important;
+  --control-primary-text-default: #050505 !important;
+  --control-primary-text-hover: #050505 !important;
+  --control-primary-text-active: #050505 !important;
+  --control-secondary-background-default: #26262B !important;
+  --control-secondary-background-hover: #3A3A40 !important;
+  --control-secondary-background-active: #3A3A40 !important;
+  --brand-500: #E6E6E9 !important; --brand-500-hsl: 240 7% 91% !important;
+  --brand-360: #C4C4CA !important; --brand-360-hsl: 240 5% 78% !important;
+  --scrollbar-auto-thumb: #3A3A40 !important;
+  --scrollbar-auto-scrollbar-color-thumb: #3A3A40 !important;
+  --scrollbar-thin-thumb: #3A3A40 !important;
+  --scrollbar-auto-scrollbar-color-track: #050505 !important;
+  --custom-scrollbar-border-radius: 0 !important;
+  --radius-xs: 0 !important; --radius-sm: 0 !important; --radius-md: 0 !important; --radius-lg: 0 !important; --radius-xl: 0 !important;
+  --font-primary: "Space Grotesk", "gg sans", sans-serif !important;
+  --font-display: "Space Grotesk", "gg sans", sans-serif !important;
+  --font-code: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+}
+body, html { background: #050505 !important; font-family: "Space Grotesk", "gg sans", sans-serif !important; }
+img[class*="avatar"], [class*="avatar_"] img, [class*="icon_"] img { border-radius: 0 !important; }
+[class*="mask"] foreignObject { clip-path: none !important; mask: none !important; }
+[class*="botTag"], [class*="newBadge"], [class*="lookFilled"][class*="colorBrand"] { background: #E6E6E9 !important; color: #050505 !important; }
+[class*="botTag"] *, [class*="newBadge"] * { color: #050505 !important; }

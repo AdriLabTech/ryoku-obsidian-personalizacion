@@ -1,0 +1,44 @@
+/* Ryoku Obsidian para la interfaz de Zen (userChrome). Variables de Zen y de Firefox; solo grises.
+   Instalar: apps/instalar_apps.sh. Reiniciar Zen para verlo. */
+:root {
+  --zen-primary-color: #E6E6E9 !important;
+  --zen-colors-primary: #101013 !important;
+  --zen-colors-secondary: #0B0B0D !important;
+  --zen-colors-tertiary: #050505 !important;
+  --zen-colors-hover: #1C1C20 !important;
+  --zen-colors-border: #29292E !important;
+  --zen-colors-border-contrast: #5A5A62 !important;
+  --zen-colors-input-bg: #101013 !important;
+  --zen-main-browser-background: #050505 !important;
+  --zen-main-browser-background-toolbar: #050505 !important;
+  --zen-themed-toolbar-bg: #050505 !important;
+  --zen-border-radius: 0px !important;
+  --zen-native-inner-radius: 0px !important;
+  --toolbar-bgcolor: #050505 !important;
+  --toolbar-color: #E6E6E9 !important;
+  --toolbar-field-background-color: #101013 !important;
+  --toolbar-field-focus-background-color: #151518 !important;
+  --toolbar-field-border-color: #29292E !important;
+  --toolbar-field-color: #E6E6E9 !important;
+  --tab-selected-bgcolor: #1C1C20 !important;
+  --tab-selected-textcolor: #FFFFFF !important;
+  --tab-loading-fill: #E6E6E9 !important;
+  --urlbar-box-bgcolor: #101013 !important;
+  --urlbar-box-hover-bgcolor: #151518 !important;
+  --urlbar-box-focus-bgcolor: #151518 !important;
+  --lwt-accent-color: #050505 !important;
+  --lwt-text-color: #E6E6E9 !important;
+  --lwt-toolbar-field-focus: #151518 !important;
+  --arrowpanel-background: #0B0B0D !important;
+  --arrowpanel-color: #E6E6E9 !important;
+  --arrowpanel-border-color: #29292E !important;
+  --sidebar-background-color: #050505 !important;
+  --sidebar-text-color: #E6E6E9 !important;
+  --focus-outline-color: #A3A3AB !important;
+  --toolbarbutton-icon-fill: #B8B8BF !important;
+  --toolbarbutton-hover-background: #1C1C20 !important;
+  --toolbarbutton-active-background: #26262B !important;
+}
+#TabsToolbar, #nav-bar, #PersonalToolbar, #zen-sidebar-top-buttons, #navigator-toolbox { background: #050505 !important; border-color: #29292E !important; }
+.tabbrowser-tab[selected] .tab-background { background: #1C1C20 !important; border: 1px solid #5A5A62 !important; box-shadow: none !important; }
+#urlbar-background, #searchbar { border-radius: 0 !important; border: 1px solid #29292E !important; box-shadow: none !important; }

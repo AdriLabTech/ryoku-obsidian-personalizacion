@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Lanza Discord con el tema Obsidian inyectado (CSS por el puerto de depuración, solo en 127.0.0.1).
+# Si Discord ya está abierto con el puerto, solo reinyecta. Uso: ryoku-discord [args de discord]
+set -u
+here="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+port=9223
+if ! curl -fs "http://127.0.0.1:$port/json/version" >/dev/null 2>&1; then
+  /usr/bin/discord --remote-debugging-port="$port" "$@" >/dev/null 2>&1 &
+  disown
+fi
+exec node "$here/inject.mjs" "$here/ryoku-obsidian.css" "$port"

@@ -1,0 +1,62 @@
+/* Ryoku Obsidian: monocromo sobre el tema base. Paleta de ryoku-perfiles/assets/paletas/obsidian.json.
+   Solo grises; los colores semánticos (error/ok/aviso) se mantienen suaves. Activar en Apariencia → Fragmentos CSS. */
+.theme-dark {
+  --background-primary: #050505;
+  --background-primary-alt: #0B0B0D;
+  --background-secondary: #0B0B0D;
+  --background-secondary-alt: #050505;
+  --background-modifier-border: #29292E;
+  --background-modifier-border-hover: #3A3A40;
+  --background-modifier-border-focus: #A3A3AB;
+  --background-modifier-hover: #151518;
+  --background-modifier-active-hover: #1C1C20;
+  --background-modifier-form-field: #101013;
+  --background-modifier-cover: #000000cc;
+  --text-normal: #E6E6E9;
+  --text-muted: #85858D;
+  --text-faint: #5A5A62;
+  --text-on-accent: #050505;
+  --text-selection: #3A3A4099;
+  --text-highlight-bg: #4A4A5266;
+  --interactive-normal: #151518;
+  --interactive-hover: #1C1C20;
+  --interactive-accent: #E6E6E9;
+  --interactive-accent-hover: #FFFFFF;
+  --color-accent: #E6E6E9;
+  --color-accent-1: #E6E6E9;
+  --color-accent-2: #FFFFFF;
+  --text-accent: #FFFFFF;
+  --text-accent-hover: #FFFFFF;
+  --link-color: #FFFFFF;
+  --link-color-hover: #FFFFFF;
+  --link-unresolved-color: #85858D;
+  --tag-color: #E6E6E9;
+  --tag-background: #1C1C20;
+  --tag-border-color: #3A3A40;
+  --h1-color: #FFFFFF; --h2-color: #FFFFFF; --h3-color: #E6E6E9;
+  --h4-color: #C4C4CA; --h5-color: #A3A3AB; --h6-color: #85858D;
+  --bold-color: #FFFFFF; --italic-color: #C4C4CA;
+  --blockquote-border-color: #5A5A62;
+  --code-background: #101013;
+  --code-normal: #B8B8BF;
+  --checkbox-color: #E6E6E9;
+  --graph-line: #29292E;
+  --graph-node: #85858D;
+  --graph-node-focused: #FFFFFF;
+  --graph-node-tag: #A3A3AB;
+  --graph-node-attachment: #5A5A62;
+  --graph-node-unresolved: #3A3A40;
+  --color-red: #C9706C; --color-green: #8DB09A; --color-yellow: #C4B27E;
+  --color-orange: #C4B27E; --color-blue: #A3A3AB; --color-purple: #A3A3AB;
+  --color-cyan: #B8B8BF; --color-pink: #BDBDC4;
+  --radius-s: 0; --radius-m: 0; --radius-l: 0; --radius-xl: 0;
+  --font-interface-theme: "Space Grotesk", var(--font-interface-override), sans-serif;
+  --font-text-theme: "Space Grotesk", sans-serif;
+  --font-monospace-theme: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+}
+.workspace-split.mod-root, .workspace-tab-header-container, .titlebar, .workspace-ribbon { border-color: #29292E; }
+.callout { --callout-color: 160, 160, 170; border-radius: 0; }
+.callout[data-callout="warning"], .callout[data-callout="caution"] { --callout-color: 196, 178, 126; }
+.callout[data-callout="danger"], .callout[data-callout="bug"], .callout[data-callout="failure"] { --callout-color: 201, 112, 108; }
+.callout[data-callout="success"], .callout[data-callout="check"], .callout[data-callout="done"] { --callout-color: 141, 176, 154; }
+.cm-s-obsidian span.cm-formatting, .markdown-rendered hr { color: #5A5A62; border-color: #29292E; }

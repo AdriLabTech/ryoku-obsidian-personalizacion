@@ -1,0 +1,12 @@
+{
+  "name": "obsidian",
+  "displayName": "Ryoku Obsidian",
+  "description": "Tema monocromo del perfil Obsidian de Ryoku (grises; solo rojo/verde/ámbar para errores, avisos y diff)",
+  "version": "1.0.0",
+  "publisher": "ryoku",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [{ "label": "Ryoku Obsidian", "uiTheme": "vs-dark", "path": "./themes/obsidian.json" }]
+  }
+}
