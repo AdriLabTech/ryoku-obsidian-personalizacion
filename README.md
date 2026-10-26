@@ -12,7 +12,7 @@ Perfil monocromo para [Ryoku](https://github.com/ryoku-dev/ryoku) (Arch + Hyprla
 | **Lanzador** | estilo propio `launcher/perfil/StyleObsidian.qml` |
 | **Iconos** | Papirus-Dark en grises (`tools/icons_obsidian.py`), incluidas las apps con icono propio |
 | **Bloqueo** | tema qylock `pixel-obsidian` (`tools/lockscreen_obsidian.py`) |
-| **Terminal** | kitty, starship y fastfetch con el emblema del perfil |
+| **Terminal** | kitty, starship y fastfetch (con el Arch 3D giratorio de Ryoku) |
 | **Apps** | VS Code, Spotify, Discord, Zen, Obsidian y Qt (`apps/`) |
 
 | Lanzador | Notificación |

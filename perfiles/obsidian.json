@@ -101,7 +101,6 @@
     "x": 140,
     "y": 500
   },
-  "fastfetch": "estatico",
   "plugins": {
     "claude-code": {
       "enabled": true,

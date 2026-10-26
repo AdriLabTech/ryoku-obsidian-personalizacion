@@ -23,4 +23,4 @@ Limitación: VS Code, Spotify y Zen no vuelven solos al estilo anterior con `per
 
 - El fondo, el reloj y los plugins volvieron a los valores por defecto → `perfil apply obsidian` los restaura.
 - `rice apply` dejaba **desactivados** `claude-code` y `mobile-bridge` → el perfil declara `"plugins"` y `perfil` los reactiva (`set_plugins`).
-- `fastfetch` usaba el Arch 3D naranja → `"fastfetch": "estatico"` + emblema propio (`tools/emblem_obsidian.py`); el lema por defecto cambió de texto en 1.0.5 y también se sustituye.
+- El lema por defecto de `fastfetch` cambió de texto en 1.0.5 y ahora también se sustituye. El logo es el Arch 3D giratorio de Ryoku (naranja): se mantiene a propósito, no es monocromo.
