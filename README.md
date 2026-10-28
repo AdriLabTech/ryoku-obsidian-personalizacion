@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/hero.svg" alt="ryoku-obsidian-personalizacion" width="100%"></p>
+
 # Ryoku Obsidian
 
 Perfil monocromo para [Ryoku](https://github.com/ryoku-dev/ryoku) (Arch + Hyprland + Quickshell): obsidiana casi negra, blanco y gris, bordes de 1 px, Space Grotesk. Todo el arte es propio y se genera por código.
